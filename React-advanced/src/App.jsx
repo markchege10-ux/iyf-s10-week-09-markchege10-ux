@@ -7,7 +7,10 @@ import CreatePost from "./pages/CreatePost";
 function App() {
   return (
     <BrowserRouter>
+      {/* Navigation bar appears on all pages */}
       <Navbar />
+
+      {/* Page Routes */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/post/:id" element={<PostDetails />} />

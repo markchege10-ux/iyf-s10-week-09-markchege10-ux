@@ -1,27 +1,31 @@
 import { useState } from "react";
 import { createPost } from "../services/api";
+import { useNavigate } from "react-router-dom";
 
 function CreatePost() {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     await createPost({ title, content });
-    alert("Post created!");
+    navigate("/");
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="form" onSubmit={handleSubmit}>
       <input
-        placeholder="Title"
+        value={title}
         onChange={(e) => setTitle(e.target.value)}
+        placeholder="Title"
       />
       <textarea
-        placeholder="Content"
+        value={content}
         onChange={(e) => setContent(e.target.value)}
+        placeholder="Content"
       />
-      <button type="submit">Post</button>
+      <button>Create</button>
     </form>
   );
 }

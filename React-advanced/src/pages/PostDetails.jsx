@@ -13,7 +13,7 @@ function PostDetails() {
   if (!post) return <p>Loading...</p>;
 
   return (
-    <div>
+    <div className="container">
       <h2>{post.title}</h2>
       <p>{post.content}</p>
     </div>
