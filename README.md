@@ -2,7 +2,7 @@
 
 ## Author
 - **Name:** Mark muraya
-- **GitHub:** [@MaisoriKitayama](https://github.com/Markchege10-ux)
+- **GitHub:** [Markchege10-ux](https://github.com/Markchege10-ux)
 - **Date:** April 21, 2026
 
 ## Project Description
@@ -26,10 +26,10 @@
    Run `npm install` then `npm start`
 
 ## Lessons Learned
-What did you learn while building this project?
+I learned on how to become proficient with advanced React patterns including effects, data fetching, client-side routing, and styling strategies. 
 
 ## Challenges Faced
-What problems did you encounter and how did you solve them?
+Faced some challenges like building the community hub with multi-page portfolio
 
 ## Screenshots (optional)
 ![Screenshot description](path/to/screenshot.png)
