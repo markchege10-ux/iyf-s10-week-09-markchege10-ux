@@ -24,6 +24,7 @@
 2. Open `index.html` in your browser
    OR
    Run `npm install` then `npm start`
+3. Right click the package.json file and then open in an integrated terminal.
 
 ## Lessons Learned
 I learned on how to become proficient with advanced React patterns including effects, data fetching, client-side routing, and styling strategies. 
